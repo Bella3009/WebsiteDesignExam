@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    height : 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ 
+body {
+    height : 100%;
+    background-color: #98daf2;
+}
+
+header{
+    background-color: #9163bf;
+}
+header img{
+    width: 13.5%;
+}
+
+header h1{
+    color: white;
+    float: right;
+    align-content: center;
+    font-size: 30px;
+    padding-top: 3%;
+    padding-right: 30%;
+}
+
+nav{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1%;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding-left: 1.5%;
+}
+
+nav ul li a:hover{
+    background-color: #faa275;
+    text-decoration: none;
+    color: black;
+    padding: 1%;
+}
+
+main{
+    width: 95%;
+    margin : 0 auto;
+}
+
+.GroupS{
+    width: 100%;
+    margin: auto;
+}
+
+.s1{
+    color: white;
+    background-color: #432d73;
+    float: left;
+    padding: 2%;
+    width: 45%;
+    height: 250px;
+    margin: 1.5% 2% 1% 0%
+}
+.s1 h2{
+    color: white;
+    padding-bottom: 3%;
+}
+.s2{
+    background-color: white;
+    color: black;
+    float: left;
+    width: 45%;
+    padding: 2%;
+    height: 250px;
+    margin: 1.5% 0% 1% 0%;
+}
+
+.s2 img{
+    width: 100%;
+    text-align: center;
+    border-radius: 8%;
+}
+.s3{
+    clear: left;
+    text-align: center;
+    color: white;
+    background-color: #432d73;
+    padding: 1%;
+}
+
+.s3 p{
+    padding: 1%;
+}
+
+.s3 input{
+    margin: 1%;
+    padding: 0.5% 0%;
+    width: 25%;
+}
+
+.button {
+    border: solid 5px #faa275;
+}
+
+footer{
+    background-color: #9163bf;
+    color: white;
+    text-align: center;
+    padding: 1.5% 0%;
+    margin-top: 2%;
+}
